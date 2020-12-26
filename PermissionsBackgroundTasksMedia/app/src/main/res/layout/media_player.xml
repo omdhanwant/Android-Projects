@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SeekBar
+        android:id="@+id/mseekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16px" />
+
+    <Button
+        android:id="@+id/mstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16px"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/mpause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16px"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/mstop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16px"
+        android:text="Stop" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16px" />
+
+    <!--    <ListView-->
+<!--        android:id="@+id/mlist"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="16px"-->
+<!--        android:dividerHeight="10dp" />-->
+</LinearLayout>
